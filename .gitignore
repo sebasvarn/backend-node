@@ -1,0 +1,39 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Entorno
+.env
+.env.local
+.env.*.local
+
+# Base de datos (ej. SQLite, backups)
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.sql
+
+# Logs
+logs/
+*.log
+
+# Editor / IDE
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Sistema
+Thumbs.db
+
+# Build
+dist/
+build/
+coverage/
+
+# Public assets temporales
+public/js/*.map
+public/css/*.map
